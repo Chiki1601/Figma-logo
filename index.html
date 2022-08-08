@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Figma logo</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Logo</title>
+    <script src="https://kit.fontawesome.com/a8474c2fa5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </main>
+    <button>Light Mode</button>
+    <a href="https://www.youtube.com/watch?v=uW-jXXI1v1c&t=5s"><i class="fab fa-youtube"></i>  YouTube</a>
+    <script>
+            let btn = document.querySelector("button");
+            let body = document.querySelector("body")
+            btn.addEventListener('click',()=>{
+                (body.style.backgroundColor!="white")? body.style.backgroundColor='white' : body.style.backgroundColor='rgba(0, 0, 0, .9)';
+                (btn.innerText=="Light Mode")? btn.innerText='Dark Mode' : btn.innerText='Light Mode';
+            });
+        </script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
